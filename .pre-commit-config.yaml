@@ -18,8 +18,6 @@ repos:
         description: Prevent giant files from being committed.
       - id: check-builtin-literals
         description: Require literal syntax when initializing empty, or zero Python builtin types.
-      - id: name-tests-test
-        args: [ '--django' ]
       - id: check-case-conflict
         description: Check for files with names that would conflict on case-insensitive filesystems like MacOS/Windows.
       - id: check-merge-conflict
